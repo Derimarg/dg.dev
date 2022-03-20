@@ -7,6 +7,7 @@ import { Fade } from "react-reveal";
 import "./ContactComponent.css";
 import { contactPageData } from "../../portfolio.js";
 import { style } from "glamor";
+import ReactGA from "react-ga";
 
 const infoData = contactPageData.InfoSection.resume;
 const ContactData = contactPageData.contactSection;
@@ -59,8 +60,14 @@ function Contact(props) {
                     href={inf.url}
                     target="_blank"
                     rel="noopener noreferrer"
+                    onClick={() => {
+                      ReactGA.event({
+                        category: `${inf.category}`,
+                        action: `${inf.action}`,
+                      });
+                    }}
                   >
-                    {inf.label}
+                    {inf.action}
                   </a>
                 ))}
               </div>
@@ -86,8 +93,14 @@ function Contact(props) {
                   href={blogSection.link}
                   target="_blank"
                   rel="noopener noreferrer"
+                  onClick={() => {
+                    ReactGA.event({
+                      category: `${blogSection.category}`,
+                      event: `${blogSection.action}`,
+                    });
+                  }}
                 >
-                  Medium Blogs
+                  {blogSection.action}
                 </a>
               </div>
             </div>

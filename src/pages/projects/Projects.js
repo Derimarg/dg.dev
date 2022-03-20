@@ -7,6 +7,7 @@ import { projectsHeader, projects } from "../../portfolio.js";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
 import { style } from "glamor";
+import ReactGA from "react-ga";
 
 function Projects(props) {
   const theme = props.theme;
@@ -47,7 +48,17 @@ function Projects(props) {
       </div>
       <div className="repo-cards-div-main">
         {projects.data.map((repo, idx) => (
-          <ProjectCard repo={repo} key={idx} theme={theme} />
+          <ProjectCard
+            repo={repo}
+            key={idx}
+            theme={theme}
+            onClick={() => {
+              ReactGA.event({
+                category: `${repo.category}`,
+                action: `${repo.action}`,
+              });
+            }}
+          />
         ))}
       </div>
       <br />

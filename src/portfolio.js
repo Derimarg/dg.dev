@@ -49,16 +49,22 @@ const greeting = {
 
 const socialMedia = [
   {
+    category: "Social Media",
+    action: "Open Github Profile",
     link: "https://github.com/Derimarg",
     class: "icon-button github",
     icon: "fab fa-github",
   },
   {
+    category: "Social Media",
+    action: "Open LinkedIn Profile",
     link: "https://www.linkedin.com/in/derimar-gray-676275132/",
     class: "icon-button linkedin",
     icon: "fab fa-linkedin-in",
   },
   {
+    category: "Social Media",
+    action: "Open Gmail to send an email",
     link: "mailto:derimargray@gmail.com",
     class: "icon-button google",
     icon: "fab fa-google",
@@ -494,14 +500,16 @@ const contactPageData = {
   InfoSection: {
     resume: [
       {
+        category: "Resume",
+        action: "See my Resume",
         url:
           "https://drive.google.com/file/d/12PhdFbCRmfhgsZeYwLbz-fj4A_4WkNqq/view?usp=sharing",
-        label: "See my Resume",
       },
       {
+        category: "Resume",
+        action: "Downlod Resume",
         url:
           "https://drive.google.com/uc?id=12PhdFbCRmfhgsZeYwLbz-fj4A_4WkNqq&export=download",
-        label: "Download Resume",
       },
     ],
   },
@@ -517,6 +525,8 @@ const contactPageData = {
       "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others.",
     link: "https://medium.com/@derimarg",
     avatar_image_path: "blogs_image.svg",
+    category: "Social Media",
+    action: "Open Medium Blogs",
   },
 };
 
@@ -524,6 +534,8 @@ const projects = {
   data: [
     {
       id: "0",
+      category: "View Project",
+      action: "Go to Code Command website",
       name: "Code Command",
       url: "https://code-command-team.herokuapp.com/",
       description:
@@ -561,6 +573,8 @@ const projects = {
     },
     {
       id: "1",
+      category: "View Project",
+      action: "Go to Forge website",
       name: "Forge",
       url: "https://forge-team.herokuapp.com/",
       description:
@@ -614,6 +628,8 @@ const projects = {
     },
     {
       id: "2",
+      category: "View Project",
+      action: "Go to Tech Blog website",
       name: "Tech Blog",
       url: "https://dg-tech-blog.herokuapp.com/",
       description:
@@ -651,6 +667,8 @@ const projects = {
     },
     {
       id: "3",
+      category: "View Project",
+      action: "Go to Portfolio website",
       name: "Portfolio Website",
       url: "https://derimarg.github.io/react-portfolio/",
       description:
@@ -684,6 +702,8 @@ const projects = {
     },
     {
       id: "4",
+      category: "View Project",
+      action: "Go to Weather Dashboard website",
       name: "Weather Dashboard",
       url: "https://derimarg.github.io/weather-dashboard/",
       description:
@@ -717,6 +737,8 @@ const projects = {
     },
     {
       id: "5",
+      category: "View Project",
+      action: "Go to Password Generator website",
       name: "Password Generator",
       url: "https://derimarg.github.io/password-generator/",
       description:
@@ -738,6 +760,8 @@ const projects = {
     },
     {
       id: "6",
+      category: "View Project",
+      action: "Go to Note Taker website",
       name: "Note Taker",
       url: "https://my-notes-taker.herokuapp.com/",
       description:
@@ -779,6 +803,8 @@ const projects = {
     },
     {
       id: "7",
+      category: "View Project",
+      action: "Go to Taskmaster Pro website",
       name: "Taskmaster Pro",
       url: "https://derimarg.github.io/taskmaster-pro/",
       description: "To Do app that allows to organized tasks.",
@@ -799,6 +825,8 @@ const projects = {
     },
     {
       id: "8",
+      category: "View Project",
+      action: "Go to Work Day Scheduler website",
       name: "Work Day Scheduler",
       url: "https://derimarg.github.io/work-day-scheduler/",
       description:
@@ -828,6 +856,8 @@ const projects = {
     },
     {
       id: "9",
+      category: "View Project",
+      action: "Go to Run Buddy website",
       name: "Run Buddy",
       url: "https://derimarg.github.io/run-buddy/",
       description:
