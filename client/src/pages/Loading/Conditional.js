@@ -10,6 +10,10 @@ const Pages = withRouter(({ location, ...props }) => {
   switch (location.pathname) {
     case "/":
       return <Home {...props} />;
+    case "/login":
+      return <Home {...props} />;
+    case "/signup":
+      return <Home {...props} />;
     case "/education":
       return <Education {...props} />;
     case "/projects":
@@ -19,7 +23,7 @@ const Pages = withRouter(({ location, ...props }) => {
     case "/contact":
       return <Contact {...props} />;
     default:
-      return <Education />;
+      return <Home {...props} />;
   }
 });
 

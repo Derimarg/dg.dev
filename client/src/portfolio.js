@@ -1,6 +1,8 @@
 // Routes for navigation
 const routes = [
   { path: "/" },
+  { path: "/login"},
+  { path: "/signup"},
   { path: "/education" },
   // {path: "experience"},
   { path: "/projects" },
