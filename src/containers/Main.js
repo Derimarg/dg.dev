@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { routes } from "../portfolio.js";
 import Loading from "./../pages/Loading/Loading";
