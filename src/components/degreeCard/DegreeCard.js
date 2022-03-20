@@ -2,6 +2,7 @@ import React from "react";
 import "./DegreeCard.css";
 import { Fade } from "react-reveal";
 import { style } from "glamor";
+import ReactGA from "react-ga";
 
 function DegreeCard(props) {
   const degree = props.degree;
@@ -113,6 +114,12 @@ function DegreeCard(props) {
               target="_blank"
               rel="noopener noreferrer"
               style={{ textDecoration: "none", textAlign: "center" }}
+              onClick={() => {
+                ReactGA.event({
+                  category: `${degree.category}`,
+                  action: `${degree.action}`,
+                });
+              }}
             >
               <p
                 {...button_visit}

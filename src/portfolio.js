@@ -250,6 +250,8 @@ const skills = {
 const degrees = {
   degrees: [
     {
+      category: "Degree",
+      action: "Go to Universidad Veracruzana Website",
       title: "Universidad Veracruzana",
       subtitle: "BS Degree in Mechanical Engineering",
       logo_path: "uv.svg.png",
@@ -379,37 +381,23 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  subtitle: "Work and Volunteership",
   description:
-    "I've completed one internship. I've mostly done projects on my own and I am actively looking for internships. I love organizing workshops to share my knowledge with others.",
+    "I've mostly done projects on my own and I love organizing workshops to share my knowledge with others.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work Experience",
       experiences: [
         {
-          title: "Machine Learning Intern",
-          company: "Technocolabs",
-          company_url: "https://technocolabs.com/",
-          logo_path: "Technocolabs.jfif",
-          duration: "Sept 2020 - Oct 2020",
-          location: "Remote",
-          description: `Analysed the changes before and after people started using sanitizers using the covid-19 dataset. Built and analysed several predictive models for defaulting user’s credit card and deployed it on a full-stack website using Flask. Made a predictive model for Blood Donation for Future Expectancy and deployed it on a fully-fledged website. Increased productivity and problem-solving technics by 20%. 
-          `,
-          // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
-          color: "#0071C5",
-        },
-        {
-          title: "Data Science Intern",
-          company: "The Sparks Foundation",
-          company_url: "hhttps://thesparksfoundation.info/",
-          logo_path: "TSF.png",
-          duration: "Aug 2020 - Sept 2020",
-          location: "Remote",
-          description: `Developed predictive models and deployed it on a full-stack website using Flask. Used Boxplot, Heatmap and Confusion Matrix for data visualization. Deep analysis on the superstore dataset using Bar Plots, Bar Charts, Pair Plots and Joint Plots for specific regions.
-          `,
-          // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
-          color: "#ee3c26",
+          title: "",
+          company: "",
+          company_url: "",
+          logo_path: "",
+          duration: "",
+          location: "",
+          description: "",
+          color: "",
         },
       ],
     },
@@ -417,70 +405,14 @@ const experience = {
       title: "Volunteerships",
       experiences: [
         {
-          title: "R&D Member",
-          company: "Webarch Club",
-          company_url: "https://www.webarchsrm.com/",
-          logo_path: "Webarch.jfif",
-          duration: "Mar 2020 - Nov 2020",
-          location: "SRM IST Kattankulathur",
-          description:
-            "Member responsibilities were to help students in project planning, review issues and pull requests, ensure smooth progress and help juniors out in their difficulties.",
-          color: "#4285F4",
-        },
-        {
-          title: "Campus Leader",
-          company: "Code For Cause",
-          company_url: "https://www.codecau.se/",
-          logo_path: "CFC.jfif",
-          duration: "Nov 2020 - Present",
-          location: "SRM IST Kattankulathur",
-          description:
-            "Held numerous workshops and distributed learning content for freshers. Contributed to development of the causefolio website displaying the information about the Code for Cause Community.",
-          color: "#a60000",
-        },
-        {
-          title: "Machine Learning - Research associate",
-          company: "Next Tech Lab",
-          company_url: "https://nextech.io/",
-          logo_path: "NTL.jfif",
-          duration: "Oct 2020 - Present",
-          location: "SRM IST Kattankulathur",
-          description:
-            "Associate responsibilities were to build fast and efficient machine learning models, have talks on research topics related to computer vision and deep learning. Build team projects and intract with fellow members and ensure smooth progress and help juniors out in their difficulties.",
-          color: "#62cff0",
-        },
-        {
-          title: "Campus Ambassador",
-          company: "Bagcampus",
-          company_url: "https://bagcampus.in/",
-          logo_path: "Bagcampus.jpg",
-          duration: "Dec 2020 - May 2021",
-          location: "Remote",
-          description:
-            "Spread Awareness of new Technologies and Companies and new Opportunities to Students and Grow Bagcampus Community.",
-          color: "#0059c9",
-        },
-        {
-          title: "Volunteer",
-          company: "Google Crowdsource",
-          company_url: "https://indiaenvironment.org/",
-          logo_path: "GCS.jfif",
-          duration: "Sept 2020 - Present",
-          location: "Remote",
-          description:
-            "As a member of the global Crowdsource community one can gain recognition from other Crowdsourcers and Google.",
-          color: "#ffffff",
-        },
-        {
-          title: "Student Volunteer",
-          company: "National Service Scheme",
-          company_url: "https://indiaenvironment.org/",
-          logo_path: "NSS.jfif",
-          duration: "Dec 2019 - May 2020",
-          location: "SRM IST Kattankulathur",
-          description:
-            "Take time out over weekends to join a gang of nation builders, nature enthusiasts to conserve what is left.",
-          color: "#282b6c",
+          title: "",
+          company: "",
+          company_url: "",
+          logo_path: "",
+          duration: "",
+          location: "",
+          description: "",
+          color: "",
         },
       ],
     },
@@ -534,7 +466,7 @@ const projects = {
   data: [
     {
       id: "0",
-      category: "View Project",
+      category: "Project",
       action: "Go to Code Command website",
       name: "Code Command",
       url: "https://code-command-team.herokuapp.com/",
@@ -573,7 +505,7 @@ const projects = {
     },
     {
       id: "1",
-      category: "View Project",
+      category: "Project",
       action: "Go to Forge website",
       name: "Forge",
       url: "https://forge-team.herokuapp.com/",
@@ -628,7 +560,7 @@ const projects = {
     },
     {
       id: "2",
-      category: "View Project",
+      category: "Project",
       action: "Go to Tech Blog website",
       name: "Tech Blog",
       url: "https://dg-tech-blog.herokuapp.com/",
@@ -667,7 +599,7 @@ const projects = {
     },
     {
       id: "3",
-      category: "View Project",
+      category: "Project",
       action: "Go to Portfolio website",
       name: "Portfolio Website",
       url: "https://derimarg.github.io/react-portfolio/",
@@ -702,7 +634,7 @@ const projects = {
     },
     {
       id: "4",
-      category: "View Project",
+      category: "Project",
       action: "Go to Weather Dashboard website",
       name: "Weather Dashboard",
       url: "https://derimarg.github.io/weather-dashboard/",
@@ -737,7 +669,7 @@ const projects = {
     },
     {
       id: "5",
-      category: "View Project",
+      category: "Project",
       action: "Go to Password Generator website",
       name: "Password Generator",
       url: "https://derimarg.github.io/password-generator/",
@@ -760,7 +692,7 @@ const projects = {
     },
     {
       id: "6",
-      category: "View Project",
+      category: "Project",
       action: "Go to Note Taker website",
       name: "Note Taker",
       url: "https://my-notes-taker.herokuapp.com/",
@@ -803,7 +735,7 @@ const projects = {
     },
     {
       id: "7",
-      category: "View Project",
+      category: "Project",
       action: "Go to Taskmaster Pro website",
       name: "Taskmaster Pro",
       url: "https://derimarg.github.io/taskmaster-pro/",
@@ -825,7 +757,7 @@ const projects = {
     },
     {
       id: "8",
-      category: "View Project",
+      category: "Project",
       action: "Go to Work Day Scheduler website",
       name: "Work Day Scheduler",
       url: "https://derimarg.github.io/work-day-scheduler/",
@@ -856,7 +788,7 @@ const projects = {
     },
     {
       id: "9",
-      category: "View Project",
+      category: "Project",
       action: "Go to Run Buddy website",
       name: "Run Buddy",
       url: "https://derimarg.github.io/run-buddy/",
