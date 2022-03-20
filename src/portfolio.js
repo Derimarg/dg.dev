@@ -44,7 +44,7 @@ const greeting = {
   title2: "Derimar",
   full_name: "Derimar Gray",
   subTitle:
-    " Mechanical Engineer and Full Stack Developer, Genexus Practitioner, Open Source Enthusiast, I love sharing Knowledge and learn, my goal is to help other developer!.",
+    " Mechanical Engineer and Full Stack Developer, Genexus Practitioner, Open Source Enthusiast, I love sharing Knowledge and learn, my goal is to help other developers!.",
 };
 
 const socialMedia = [

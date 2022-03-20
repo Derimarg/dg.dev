@@ -9,7 +9,7 @@ export default function Footer(props) {
     <div className="footer-div">
       <Fade>
         <p className="footer-text" style={{ color: props.theme.secondaryText }}>
-          &copy; {new Date().getFullYear()} Made by - {greeting.full_name}
+          &copy; {new Date().getFullYear()} Made by {greeting.full_name}
         </p>
       </Fade>
     </div>
