@@ -1,7 +1,7 @@
 {
   "name": "dg.dev",
   "version": "0.1.0",
-  "homepage": "https://Derimarg.github.io/dg.dev",
+  "homepage": "https://Derimarg.github.io/dg.dev/",
   "private": true,
   "dependencies": {
     "baseui": "^10.11.0",
