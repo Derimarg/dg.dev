@@ -1,6 +1,7 @@
 {
-  "name": "",
+  "name": "dg.dev",
   "version": "0.1.0",
+  "homepage": "https://Derimarg.github.io/dg.dev",
   "private": true,
   "dependencies": {
     "baseui": "^9.109.0",
@@ -34,6 +35,8 @@
     "prettier": "2.2.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
